@@ -32,6 +32,16 @@ def main():
                 print(f'Your score is {player1.points}')
                 print()
 
+                if game_end == True:
+                    play_again = input('Play again? [y/n] ')
+                    if play_again == 'y':
+                        player1.reset_points()
+                        game_end = False
+                    elif play_again == 'n':
+                        pass
+                    else:
+                        print('That input is not valid.')
+
             elif decision.lower() == 'n':
                 game_end = True
 
