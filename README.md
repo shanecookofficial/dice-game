@@ -7,14 +7,12 @@ The game starts out with the player rolling 5 dice. If the player rolls a 1, the
 
 If there is a turn in which the player does not roll a 1 or a 5, the game is over.
 
----
 ## Software Requirements
 There's only a couple things you need to get started:
 
 - Python 3
 - A terminal
 
----
 ## Getting Started
 <ol>
     <li>Download the game</li>
@@ -41,5 +39,3 @@ There's only a couple things you need to get started:
         </ul>
     </ul>
 </ol>
-
----
